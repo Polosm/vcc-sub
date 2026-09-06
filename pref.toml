@@ -5,7 +5,7 @@ api_mode = true
 listen = "0.0.0.0"
 port = 8080
 # 自动剔除机场附带的垃圾节点 (广告、到期时间等)
-exclude_remarks = ["到期|剩余时间|官网|产品|QQ群|网址"]
+exclude_remarks = ["到期", "剩余时间", "官网", "产品", "QQ群", "网址"]
 # 设置为 true 会在生成的订阅首部插入一段说明 (可不理会)
 prepend_insert_url = true
 
