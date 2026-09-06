@@ -8,4 +8,4 @@ COPY pref.toml /base/pref.toml
 EXPOSE 8080
 
 # 启动服务
-CMD ["./subconverter"]
+# CMD ["./subconverter"]
